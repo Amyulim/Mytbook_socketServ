@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.ev.PORT || 8800
+const port = process.ev.port || 8800
 
 app.all('/',function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
